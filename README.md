@@ -24,8 +24,8 @@ To reproduce the issue, you need to update the `package.json` file with the foll
 
 // This works
 "overrides": {
-    "@libsql/isomorphic-fetch": "0.2.4"
+    "@libsql/isomorphic-fetch": "0.2.1"
 }
 ```
 
-Remember to kill the server, install the dependencies, and run the development server again to reproduce the issue.
+Remember to kill the server, run `rm -rf node_modules`, install the dependencies, and run the development server again to reproduce the issue.
